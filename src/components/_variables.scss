@@ -1,2 +1,35 @@
-$color-example: #ff0000;
-$fontsize-example: 16px;
+$color-white: #ffffff;
+$color-white_smoke: #f5f5f5;
+$color-gray_desertStorm: #ece9e6;
+$color-gray_gainsboro: #dddddd;
+$color-gray_nobel: #999999;
+$color-orange_zorba: #a19283;
+$color-orange_bistre: #442606;
+$color-black_50: rgba(0, 0, 0, 0.5);
+$color-black: #000000;
+
+$font-size-XS: 12px;
+$font-size-S: 14px;
+$font-size-M: 16px;
+$font-size-L: 20px;
+$font-size-XL: 36px;
+$font-size-XXL: 40px;
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP&family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", "Note Serif JP", "Note Sans JP", "游明朝体",
+    "游ゴシック体";
+}
+
+$fontfamily-mincho: "Roboto", "Note Serif JP", "Note Sans JP", "游明朝体";
+$fontfamily-gothic: "Roboto", "Note Serif JP", "Note Sans JP", "游ゴシック体";
+
+.col-sm-1 {
+}
+.col-md-2 {
+}
+.col-lg-4 {
+}
+.col-xl-5 {
+}
