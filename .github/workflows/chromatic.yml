@@ -19,4 +19,4 @@ jobs:
       - uses: chromaui/action@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          projectToken: npx chromatic --project-token=fe5ff79a8333
+          projectToken: fe5ff79a8333
