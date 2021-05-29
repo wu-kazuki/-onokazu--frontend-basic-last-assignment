@@ -1,5 +1,4 @@
-button,
-h2,
+@use "./_variables" as *;
 body {
-  font-family: "Roboto", "Note Serif JP", "Note Sans JP", "游ゴシック体";
+  font-family: $fontfamily-mincho, $fontfamily-gothic;
 }
