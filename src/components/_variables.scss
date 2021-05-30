@@ -1,11 +1,11 @@
 $color-white: #ffffff;
-$color-white_smoke: #f5f5f5;
-$color-gray_desertStorm: #ece9e6;
-$color-gray_gainsboro: #dddddd;
-$color-gray_nobel: #999999;
-$color-orange_zorba: #a19283;
-$color-orange_bistre: #442606;
-$color-black_50: rgba(0, 0, 0, 0.5);
+$color-whitesmoke: #f5f5f5;
+$color-graydesertStorm: #ece9e6;
+$color-graygainsboro: #dddddd;
+$color-graynobel: #999999;
+$color-orangezorba: #a19283;
+$color-orangebistre: #442606;
+$color-black50: rgba(0, 0, 0, 0.5);
 $color-black: #000000;
 
 $font-size-XS: 12px;
@@ -15,21 +15,10 @@ $font-size-L: 20px;
 $font-size-XL: 36px;
 $font-size-XXL: 40px;
 
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP&family=Roboto&display=swap");
+$fontfamily-mincho: "Note Serif JP", serif;
+$fontfamily-gothic: "Roboto", "Note Sans JP", sans-serif;
 
-body {
-  font-family: "Roboto", "Note Serif JP", "Note Sans JP", "游明朝体",
-    "游ゴシック体";
-}
-
-$fontfamily-mincho: "Roboto", "Note Serif JP", "Note Sans JP", "游明朝体";
-$fontfamily-gothic: "Roboto", "Note Serif JP", "Note Sans JP", "游ゴシック体";
-
-.col-sm-1 {
-}
-.col-md-2 {
-}
-.col-lg-4 {
-}
-.col-xl-5 {
-}
+$grid-breakpoints-sm: 576px;
+$grid-breakpoints-md: 768px;
+$grid-breakpoints-lg: 992px;
+$grid-breakpoints-xl: 1200px;
