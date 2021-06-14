@@ -1,0 +1,73 @@
+@use "../../_variables.scss" as *;
+@use "../../utilities.scss" as *;
+
+h1 {
+  flex: auto;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 0px 0px;
+  white-space: nowrap;
+  font-family: $fontfamily-mincho;
+
+  @media screen and (min-width: $grid-breakpoints-md) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 6px;
+
+    position: static;
+    width: 160px;
+    height: 36px;
+    left: 20px;
+    top: 32px;
+  }
+
+  @media screen and (min-width: $grid-breakpoints-lg) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 10px;
+
+    position: static;
+    width: 287px;
+    height: 64px;
+    left: 20px;
+    top: 52px;
+  }
+}
+
+p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  flex: auto;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 0px 0px;
+  white-space: nowrap;
+  font-family: $fontfamily-gothic;
+
+  @media screen and (min-width: $grid-breakpoints-md) {
+    position: static;
+    width: 160px;
+    height: 28px;
+    left: 20px;
+    top: 68px;
+    margin-top: 6px;
+  }
+
+  @media screen and (min-width: $grid-breakpoints-lg) {
+    position: static;
+    width: 287px;
+    height: 36px;
+    left: 20px;
+    top: 116px;
+    margin-top: 10px;
+  }
+}
