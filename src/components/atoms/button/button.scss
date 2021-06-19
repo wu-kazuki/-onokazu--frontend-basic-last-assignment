@@ -1,0 +1,54 @@
+@use "../../_variables" as *;
+@use "../../utilities" as *;
+
+a {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 auto;
+  background-color: $color-black;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: $color-orangebistre;
+  }
+
+  @media screen and (min-width: $grid-breakpoints-sm) {
+    position: absolute;
+    width: 180px;
+    height: 45px;
+    left: 20px;
+    top: 488px;
+    padding: 12.5px 64px;
+  }
+
+  @media screen and (min-width: $grid-breakpoints-md) {
+    position: absolute;
+    width: 150px;
+    height: 55px;
+    left: 20px;
+    top: 371px;
+    padding: 17.5px 49px;
+  }
+
+  @media screen and (min-width: $grid-breakpoints-lg) {
+    position: absolute;
+    width: 200px;
+    height: 55px;
+    left: 20px;
+    top: 20px;
+    padding: 17.5px 74px;
+  }
+}
+
+.テキスト {
+  color: $color-white;
+  text-decoration: none;
+  font-family: $fontfamily-gothic;
+  text-align: center;
+  white-space: nowrap;
+
+  &:hover {
+    color: $color-white;
+    text-decoration: none;
+  }
+}
