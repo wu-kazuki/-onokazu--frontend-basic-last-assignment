@@ -1,105 +1,50 @@
 @use "../../_variables" as *;
 @use "../../utilities" as *;
 
-<<<<<<< HEAD
+
 a {
   text-align: center;
   margin: 0 auto;
   padding: 0 auto;
-=======
-button {
-  height: 55px;
-  width: 200px;
-  left: 20px;
-  top: 20px;
-  text-align: center;
-  margin: 0 auto;
-  padding: 0 auto;
-  color: $color-white;
->>>>>>> 179b141b6cbb93191930d4cb285c73788242b25a
   background-color: $color-black;
   transition: all 0.2s;
 
   &:hover {
-<<<<<<< HEAD
     background-color: $color-orangebistre;
   }
 
   @media screen and (min-width: $grid-breakpoints-sm) {
-=======
-    color: $color-white;
-    background-color: $color-orangezorba;
-    text-decoration: none;
-  }
 
-  &:a {
-    color: $color-white;
-  }
-
-  @media screen and (min-width: $grid-breakpoints-sm) {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 16px;
-    word-wrap: break-all;
-
->>>>>>> 179b141b6cbb93191930d4cb285c73788242b25a
     position: absolute;
     width: 180px;
     height: 45px;
     left: 20px;
     top: 488px;
-<<<<<<< HEAD
+
     padding: 12.5px 64px;
   }
 
   @media screen and (min-width: $grid-breakpoints-md) {
-=======
-  }
 
-  @media screen and (min-width: $grid-breakpoints-md) {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 16px;
-    word-wrap: break-all;
-
->>>>>>> 179b141b6cbb93191930d4cb285c73788242b25a
     position: absolute;
     width: 150px;
     height: 55px;
     left: 20px;
     top: 371px;
-<<<<<<< HEAD
     padding: 17.5px 49px;
   }
 
   @media screen and (min-width: $grid-breakpoints-lg) {
-=======
-  }
-
-  @media screen and (min-width: $grid-breakpoints-lg) {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 16px;
-    word-wrap: break-all;
-
->>>>>>> 179b141b6cbb93191930d4cb285c73788242b25a
     position: absolute;
     width: 200px;
     height: 55px;
     left: 20px;
     top: 20px;
-<<<<<<< HEAD
     padding: 17.5px 74px;
   }
 }
 
-.テキスト {
+.letter {
   color: $color-white;
   text-decoration: none;
   font-family: $fontfamily-gothic;
@@ -109,7 +54,5 @@ button {
   &:hover {
     color: $color-white;
     text-decoration: none;
-=======
->>>>>>> 179b141b6cbb93191930d4cb285c73788242b25a
   }
 }
