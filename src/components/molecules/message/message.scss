@@ -1,0 +1,45 @@
+@use "../../_variables.scss" as *;
+@use "../../utilities.scss" as *;
+
+.message {
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  white-space: nowrap;
+  word-break: break-all;
+  font-weight: normal;
+  @media screen and (min-width: $grid-breakpoints-md) {
+    margin-top: 52px;
+  }
+  @media screen and (min-width: $grid-breakpoints-lg) {
+    margin-top: 72px;
+  }
+  .message h1 {
+    line-height: 150%;
+    font-family: $fontfamily-mincho;
+
+    @media screen and (min-width: $grid-breakpoints-md) {
+      margin-bottom: 6px;
+      font-size: 20px;
+    }
+
+    @media screen and (min-width: $grid-breakpoints-lg) {
+      margin-bottom: 10px;
+      font-size: 36px;
+    }
+  }
+
+  .message p {
+    font-family: $fontfamily-gothic;
+    font-size: 14px;
+
+    @media screen and (min-width: $grid-breakpoints-md) {
+      line-height: 200%;
+    }
+
+    @media screen and (min-width: $grid-breakpoints-lg) {
+      line-height: 257%;
+    }
+  }
+}
