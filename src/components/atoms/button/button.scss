@@ -1,47 +1,29 @@
 @use "../../_variables.scss" as *;
 @use "../../utilities.scss" as *;
 
-a {
+.letter {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  padding: 0px 16px;
-  position: absolute;
   width: 180px;
   height: 45px;
+  padding: 0px 16px;
+  align-items: center;
+  justify-content: center;
   background-color: $color-black;
+  color: $color-white;
+  font-family: $fontfamily-gothic;
   transition: all 0.2s;
 
   &:hover {
+    color: $color-white;
     background-color: $color-orangebistre;
+    text-decoration: none;
   }
+
   @media screen and (min-width: $grid-breakpoints-md) {
-    position: absolute;
     width: 150px;
     height: 55px;
-    left: 20px;
-    top: 371px;
-    padding: 17.5px 49px;
   }
   @media screen and (min-width: $grid-breakpoints-lg) {
-    position: absolute;
     width: 200px;
-    height: 55px;
-    left: 20px;
-    top: 20px;
-    padding: 17.5px 74px;
-  }
-}
-
-.letter {
-  color: $color-white;
-  text-decoration: none;
-  font-family: $fontfamily-gothic;
-  text-align: center;
-  white-space: nowrap;
-  &:hover {
-    color: $color-white;
-    text-decoration: none;
   }
 }
