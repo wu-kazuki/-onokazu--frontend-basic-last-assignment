@@ -2,12 +2,10 @@
 @use "../../utilities.scss" as *;
 
 .message {
+  display: flex;
   align-items: center;
   text-align: center;
   flex-direction: column;
-  display: flex;
-  white-space: nowrap;
-  word-break: break-all;
   font-weight: normal;
   @media screen and (min-width: $grid-breakpoints-md) {
     margin-top: 52px;
